@@ -1,0 +1,26 @@
+language: python
+python:
+- 3.8
+# Cache Dependencies
+cache: pip
+branches:
+  only:
+  - master
+# install dependencies
+install:
+- pip install --upgrade pip
+- pip install -r requirements.txt
+# - pelican-themes -vi ./pelican-themes/bold
+# - pelican-themes -vi ./pelican-themes/Flex
+before_script:
+  - invoke --list
+script:
+  - invoke publish-carefully
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: output
+  on:
+    branch: master
