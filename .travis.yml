@@ -10,8 +10,8 @@ branches:
 install:
 - pip install --upgrade pip
 - pip install -r requirements.txt
-# - pelican-themes -vi ./pelican-themes/bold
-# - pelican-themes -vi ./pelican-themes/Flex
+- pelican-themes -vi ./clepyd-theme
+
 before_script:
   - invoke --list
 script:
