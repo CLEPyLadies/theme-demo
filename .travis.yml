@@ -15,7 +15,7 @@ install:
 before_script:
   - invoke --list
 script:
-  - invoke publish-carefully
+  - invoke build --carefully
 
 deploy:
   provider: pages
