@@ -112,6 +112,12 @@ def publish(c):
             **CONFIG))
 
 @task
+def publish_carefully(ctx):
+    """(Carefully) Build a publication version of the blog.
+    i.e. fail on any warnings from pelican."""
+    ctx.run('pelican -s publishconf.py --fatal=warnings')
+
+@task
 def gh_pages(c):
     """Publish to GitHub Pages"""
     preview(c)
