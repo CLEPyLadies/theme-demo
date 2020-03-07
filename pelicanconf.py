@@ -8,6 +8,12 @@ SITEURL = ''
 
 PATH = 'content'
 
+STATIC_PATHS = ['images', 'extra/CNAME', 'extra/favicon.ico']
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    }
+
 TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'en'
