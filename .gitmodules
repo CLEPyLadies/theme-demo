@@ -1,0 +1,3 @@
+[submodule "clepyd-theme"]
+	path = clepyd-theme
+	url = https://github.com/CLEPyLadies/clepyd-theme
