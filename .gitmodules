@@ -1,3 +1,6 @@
 [submodule "clepyd-theme"]
 	path = clepyd-theme
 	url = https://github.com/CLEPyLadies/clepyd-theme
+[submodule "pin_to_top"]
+	path = pin_to_top
+	url = https://github.com/Shaked/pin_to_top

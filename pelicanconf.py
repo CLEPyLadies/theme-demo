@@ -21,6 +21,9 @@ DEFAULT_LANG = 'en'
 
 THEME = './clepyd-theme'
 
+PLUGINS_PATHS = ['./pin_to_top']
+PLUGINS = ['pin_to_top']
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
