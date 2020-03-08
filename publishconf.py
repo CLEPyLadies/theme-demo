@@ -15,6 +15,8 @@ SITEURL = 'http://dev.clepyd.org'
 # SITEURL = 'https://clepyladies.github.io/theme-demo'
 RELATIVE_URLS = False
 
+THEME = 'clepyd-theme'
+
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
