@@ -11,8 +11,8 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
-SITEURL = 'http://dev.clepyd.org'
-# SITEURL = 'https://clepyladies.github.io/theme-demo'
+# SITEURL = 'http://dev.clepyd.org'
+SITEURL = 'https://clepyladies.github.io/theme-demo'
 RELATIVE_URLS = False
 
 THEME = 'clepyd-theme'
